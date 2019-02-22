@@ -4,18 +4,18 @@ import './App.css';
 class Header extends Component {
   render() {
     return (
-      <div>
+      <header>
         <div className="logo">
           Logo
         </div>
         <nav>
-          <a href="#">Menu</a>
-          <a href="#">Platters</a>
-          <a href="#">Locations</a>
-          <a href="#">Rewards</a>
-          <a href="#">Reservations</a>
+          <a className="navbarItemsStyle" href="#">Menu</a>
+          <a className="navbarItemsStyle" href="#">Platters</a>
+          <a className="navbarItemsStyle" href="#">Locations</a>
+          <a className="navbarItemsStyle" href="#">Rewards</a>
+          <a className="navbarItemsStyle" href="#">Reservations</a>
         </nav>
-      </div>
+      </header>
     );
   }
 }
