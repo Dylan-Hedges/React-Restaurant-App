@@ -5,7 +5,7 @@ import Header from './Header.js';
 export default class TopImg extends Component {
   render() {
     return (
-      <section className="TopImg">
+      <section id="TopImg">
         <div className="container">
           <Header />
           <div className="title">
