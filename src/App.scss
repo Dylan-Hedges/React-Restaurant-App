@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|PT+Sans:400,700|Rozha+One');
 $textFont: 'Open Sans', sans-serif;
 $displayFont: 'Rozha One', serif;
+
 *{
   box-sizing: border-box;
 }
@@ -19,6 +20,26 @@ nav {
   display: inline-block;
   float: right;
   text-align: right;
+}
+
+h5{
+  color: grey;
+  font-size: 0.7rem;
+  margin: 0.5rem 0 1rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+h2{
+  font-family: $displayFont;
+  font-size: 3rem;
+  margin: 0.5rem 0 3rem;
+  text-transform: capitalize;
+}
+p{
+  font-size: 1.1rem;
+  color: grey;
+  line-height: 2rem;
+  margin: 0.5rem 0 3rem;
 }
 
 .navbarItemsStyle{
@@ -76,23 +97,6 @@ nav {
 
 #OurStory{
   padding: 100px 0;
-  h5{
-    color: grey;
-    font-size: 1.1rem;
-    margin: 0.5rem 0 1rem;
-  }
-  h2{
-    font-family: $displayFont;
-    font-size: 3rem;
-    margin: 0.5rem 0 3rem;
-    text-transform: capitalize;
-  }
-  p{
-    font-size: 1.1rem;
-    color: grey;
-    line-height: 2rem;
-    margin: 0.5rem 0 3rem;
-  }
   .quote{
     color: grey;
     margin: 0.5rem 0 3rem;
@@ -124,4 +128,19 @@ nav {
     background-size: cover;
     margin: 0 auto;
   }
+}
+
+#SpecialMenu{
+  padding: 100px 0;
+  position: relative;
+  background: #b51212;
+  background: linear-gradient(135deg,rgba(0,0,0,.2) 0,#002d77 100%);
+  background-image: url('https://image.freepik.com/free-vector/grey-dots-texture_1053-237.jpg');
+  background-position: center;
+  // background-size: cover;
+  background-repeat: repeat;
+  h5{
+    text-align: center;
+  }
+
 }

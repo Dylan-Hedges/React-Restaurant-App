@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.scss';
-import Header from './Header.js';
 
 export default class OurStory extends Component {
   render() {
