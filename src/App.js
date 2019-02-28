@@ -4,6 +4,7 @@ import './App.scss';
 import TopImg from './TopImg.js';
 import OurStory from './OurStory.js';
 import SpecialMenu from './SpecialMenu.js';
+import RandomQuote from './RandomQuote.js';
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
         <TopImg />
         <OurStory />
         <SpecialMenu />
+        <RandomQuote />
       </div>
     );
   }
