@@ -4,7 +4,7 @@ import './App.scss';
 export default class SpecialMenu extends Component {
   render() {
     return (
-      <section id="SpecialMenu">
+      <section id="SpecialMenu" class="texturebg">
         <div className="container">
           <h5 className="comp-title">Special Menu</h5>
           <h2>Delicious Flavour of Autumn</h2>

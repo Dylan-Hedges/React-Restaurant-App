@@ -13,7 +13,7 @@ export default class TopImg extends Component {
               Welcome
             </h5>
             <h1>
-              Prime Steak
+              Prime Steak <br/>Restaurant
             </h1>
           </div>
           <div className="contact-info">
