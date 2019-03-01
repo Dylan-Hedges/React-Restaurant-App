@@ -5,6 +5,7 @@ import TopImg from './TopImg.js';
 import OurStory from './OurStory.js';
 import SpecialMenu from './SpecialMenu.js';
 import RandomQuote from './RandomQuote.js';
+import Reviews from './Reviews.js';
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
         <OurStory />
         <SpecialMenu />
         <RandomQuote />
+        <Reviews />
       </div>
     );
   }
