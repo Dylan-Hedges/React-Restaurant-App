@@ -47,7 +47,7 @@ h5{
 }
 
 p{
-  font-size: 1.1rem;
+  font-size: 0.8rem;
   color: $paraghColor;
   line-height: 2rem;
   margin: 0.5rem 0 3rem;
@@ -60,6 +60,10 @@ a{
     color: $red;
     text-decoration: none;
   }
+}
+
+strong{
+  font-weight: 600;
 }
 
 .texturebg{
@@ -248,5 +252,44 @@ a{
 }
 
 #Reviews{
-  
+  padding: 100px 0;
+  text-align: right;
+  .side-img{
+    position: relative;
+    height: 200px;
+    width: 100%;
+    text-align: left;
+    img{
+      position: absolute;
+      // max-width: 600px;
+      width: 100%;
+    }
+  }
+  h4{
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+  }
+  .author{
+    font-size: 0.8rem;
+    color: $paraghColor;
+    font-weight: 300;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+    strong{
+      font-weight: 700;
+      color: $black;
+    }
+  }
+  .arrows{
+    .fa-arrow-left, .fa-arrow-right{
+      font-size: 1.5rem;
+      padding: 20px 10px;
+      color: $paraghColor;
+      cursor: pointer;
+    }
+    .fa-arrow-left.ready, .fa-arrow-right.ready{
+      color: $black;
+    }
+  }
 }
