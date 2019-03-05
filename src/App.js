@@ -7,6 +7,7 @@ import SpecialMenu from './SpecialMenu.js';
 import RandomQuote from './RandomQuote.js';
 import Reviews from './Reviews.js';
 import ContactUs from './ContactUs.js';
+import Footer from './Footer.js';
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
         <RandomQuote />
         <Reviews />
         <ContactUs />
+        <Footer />
       </div>
     );
   }

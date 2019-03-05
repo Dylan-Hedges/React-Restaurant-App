@@ -9,11 +9,11 @@ class Header extends Component {
           Logo
         </div>
         <nav>
-          <a className="navbarItemsStyle" href="#">Menu</a>
-          <a className="navbarItemsStyle" href="#">Platters</a>
-          <a className="navbarItemsStyle" href="#">Locations</a>
-          <a className="navbarItemsStyle" href="#">Rewards</a>
+          <a className="navbarItemsStyle" href="#">Our Story</a>
+          <a className="navbarItemsStyle" href="#">Reviews</a>
+          <a className="navbarItemsStyle" href="#">Special Menu</a>
           <a className="navbarItemsStyle" href="#">Reservations</a>
+          <a className="navbarItemsStyle" href="#">Contact Us</a>
         </nav>
       </header>
     );
