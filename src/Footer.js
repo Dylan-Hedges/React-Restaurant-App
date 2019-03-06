@@ -14,8 +14,12 @@ export default class Footer extends Component {
             <a href="#">Contact Us </a>
           </nav>
           <ul className="social-media">
+            <li><a href="http://www.facebook.com" target="new"><i className="fab fa-facebook-square"></i></a></li>
+            <li><a href="http://www.twitter.com" target="new"><i className="fab fa-twitter"></i></a></li>
+            <li><a href="https://plus.google.com/discover" target="new"><i className="fab fa-google-plus"></i></a></li>
+            <li><a href="http://www.youtube.com" target="new"><i className="fab fa-youtube"></i></a></li>
           </ul>
-          <div class="copyright">
+          <div className="copyright">
             © Copyright
           </div>
         </div>
