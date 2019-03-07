@@ -12,7 +12,7 @@ export default class ContactUs extends Component {
             <div className="row">
               <div className="col-md-6">
                 <div className="title">
-                  Los Angeles, California
+                  {this.props.data.contactus.location}
                 </div>
                 <h6 className="Address">
                   535 main str<br/>

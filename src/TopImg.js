@@ -3,6 +3,13 @@ import './App.scss';
 import Header from './Header.js';
 
 export default class TopImg extends Component {
+  //Needed to recieve props, initalize the state and bind event handler methods to the component
+  constructor(props){
+    //Calls parent constructor - super(props) passes props to the parent constructor
+    super(props);
+    // Sets the inital component state - Don't call setState() here, Don't make a copy of the props as it causes bugs e.g this.state = {data:props.data};
+    // this.state = {data:props.data};
+  }
   render() {
     return (
       <section id="TopImg">
@@ -13,7 +20,7 @@ export default class TopImg extends Component {
               Welcome
             </h5>
             <h1>
-              Prime Steak <br/>Restaurant
+              {this.props.data.topimg.title}
             </h1>
           </div>
           <div className="contact-info">
