@@ -13,8 +13,8 @@ export default class Reviews extends Component {
         <p>{this.props.data.reviews[this.props.data.reviewnumber.currentreview].review}</p>
         <div className="author"><strong>{this.props.data.reviews[this.props.data.reviewnumber.currentreview].author}</strong> - <em>{this.props.data.reviews[this.props.data.reviewnumber.currentreview].authorInfo}</em></div>
         <div className="arrows">
-          <i class="fas fa-arrow-left"></i>
-          <i class="fas fa-arrow-right ready"></i>
+          <i class={`fas fa-arrow-left ${(this.props.data.reviewnumber.currentreview > 0) ? 'ready': '' } `}></i>
+          <i class={`fas fa-arrow-right ${(this.props.data.reviewnumber.currentreview == this.props.data.reviews.length -1) ? '' : `ready` }`}></i>
         </div>
       </div>
     );
