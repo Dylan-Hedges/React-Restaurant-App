@@ -4,7 +4,7 @@ import './App.scss';
 export default class ContactUs extends Component {
   render() {
     return (
-      <section id="ContactUs" class="texturebg">
+      <section id="ContactUs" className="texturebg">
         <div className="container">
           <h5 className="comp-title">Contact US</h5>
           <h2>Delicious Flavour of Autumn</h2>
