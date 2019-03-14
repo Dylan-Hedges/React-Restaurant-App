@@ -1,5 +1,5 @@
 var topimg = {
-  title: 'PRIME STEAK RESTAURANT',
+  title: 'JOES BBQ SMOKEHOUSE',
   phone: '(718) - 219 - 8652'
 }
 const contactus = {

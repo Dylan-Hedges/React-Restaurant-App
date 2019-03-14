@@ -20,7 +20,7 @@ export default class TopImg extends Component {
               Welcome
             </h5>
             <h1>
-              {this.props.data.topimg.title}
+              JOE'S BBQ <br/> SMOKEHOUSE
             </h1>
           </div>
           <div className="contact-info">

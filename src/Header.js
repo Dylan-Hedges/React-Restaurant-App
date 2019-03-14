@@ -1,19 +1,20 @@
 import React, { Component } from 'react';
 import './App.scss';
+import logo from './img/logo_white.png';
 
 class Header extends Component {
   render() {
     return (
-      <header>
+      <header id="Header">
         <div className="logo">
-          Logo
+          <img src={logo}/>
         </div>
         <nav>
-          <a className="navbarItemsStyle" href="#">Our Story</a>
-          <a className="navbarItemsStyle" href="#">Reviews</a>
-          <a className="navbarItemsStyle" href="#">Special Menu</a>
-          <a className="navbarItemsStyle" href="#">Reservations</a>
-          <a className="navbarItemsStyle" href="#">Contact Us</a>
+          <a href="#">Our Story</a>
+          <a href="#">Reviews</a>
+          <a href="#">Special Menu</a>
+          <a href="#">Reservations</a>
+          <a href="#">Contact Us</a>
         </nav>
       </header>
     );

@@ -20,16 +20,7 @@ body{
   overflow-x: hidden;
   color: $black;
 }
-header{
-  width: 100%;
-  z-index: 20;
-}
 
-nav {
-  display: inline-block;
-  float: right;
-  text-align: right;
-}
 h2{
   font-family: $displayFont;
   font-size: 3rem;
@@ -54,13 +45,7 @@ p{
   font-weight: 300;
 }
 
-a{
-  transition: all .3s ease-in-out;
-  &:hover{
-    color: $red;
-    text-decoration: none;
-  }
-}
+
 
 strong{
   font-weight: 600;
@@ -74,17 +59,30 @@ strong{
   background-repeat: repeat;
 }
 
-.navbarItemsStyle{
-    display: inline-block;
-    color: white;
-    text-decoration: none;
-    padding: 20px 10px;
-}
+
 
 .logo{
   display: inline-block;
-  padding: 20px 10px;
+  padding: 10px 10px;
   color: white;
+}
+
+#Header{
+  width: 100%;
+  z-index: 20;
+  nav{
+    float: right;
+    a{
+      display: inline-block;
+      transition: all .3s ease-in-out;
+      color: white;
+      text-decoration: none;
+      padding: 20px 10px;
+      &:hover{
+        color: $red;
+      }
+    }
+  }
 }
 
 #TopImg{
@@ -93,15 +91,18 @@ strong{
   position: relative;
   // background: #b51212;
   background: linear-gradient(135deg,rgba(0,0,0,.2) 0,#002d77 100%);
-  background-image: linear-gradient(135deg,rgba(0,0,0,.2) 0,#000 100%),url('https://www.thespruceeats.com/thmb/DWCODJ01-jPtLhEityaZQoA4nZk=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/closed-oven-prime-rib-roast-method-995286-11_preview-5b041f9fa474be0037c063ba.jpeg');
+  background-image: linear-gradient(135deg,rgba(0,0,0,.2) 0,#000 100%),url('./img/1.jpg');
   background-position: center;
   background-size: cover;
   .title{
-    padding: 200px 0 50px 0;
+    padding: 120px 0 50px 0;
     text-align: right;
     color: white;
     font-weight: 300;
     text-transform: uppercase;
+    h5{
+      font-size: 1rem;
+    }
     h1{
       font-family: $displayFont;
       font-size: 6rem;
