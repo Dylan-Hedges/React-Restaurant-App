@@ -142,6 +142,7 @@ strong{
     strong{
       color:$black;
       font-weight: 700;
+      font-size: 1.1rem;
     }
   }
   .reserve-btn{
@@ -177,6 +178,9 @@ strong{
   h2, h5{
     text-align: center;
   }
+  .comp-title{
+    font-size: 1rem;
+  }
   .box{
     background: white;
     padding: 20px;
@@ -185,11 +189,15 @@ strong{
       position: relative;
       width: 100%;
       height: 200px;
-      background: linear-gradient(135deg,rgba(0,0,0,.2) 0,#002d77 100%);
-      background-image: linear-gradient(135deg,rgba(0,0,0,.2) 0,#000 100%),url('https://cdn.gearpatrol.com/wp-content/uploads/2018/10/The-20-Best-Things-to-Cook-Cast-Iron-Skillet-Gear-Patrol-Okra-Tomatoes.jpg');
+      // background: linear-gradient(135deg,rgba(0,0,0,.2) 0,#002d77 100%);
+      // background-image: linear-gradient(135deg,rgba(0,0,0,.2) 0,#000 100%),url('https://cdn.gearpatrol.com/wp-content/uploads/2018/10/The-20-Best-Things-to-Cook-Cast-Iron-Skillet-Gear-Patrol-Okra-Tomatoes.jpg');
       background-position: center;
       background-size: cover;
       margin-bottom: 70px;
+      img{
+        width: 100%;
+        height: 100%;
+      }
     }
     .price-circle{
       position: absolute;
@@ -225,11 +233,31 @@ strong{
   .boxes{
     padding-bottom: 50px
   }
-  a.link{
-    color: black;
+  // a.link{
+  //   color: black;
+  //   font-family: $displayFont;
+  //   text-align: center;
+  //   display: block;
+  // }
+  // a.link:hover{
+  //   text-decoration: none;
+  //   color: $red;
+  //   font-weight: 500;
+  // }
+  .reserve-btn{
     font-family: $displayFont;
+    display: inline-block;
+    padding: 20px 40px;
+    border: 1px solid $black;
     text-align: center;
-    display: block;
+    text-decoration: none;
+    color: $black;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out;
+    &:hover{
+        background: $red;
+        color: white;
+    }
   }
 }
 

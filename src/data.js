@@ -1,3 +1,7 @@
+import image5 from './img/5.jpg';
+import image7 from './img/7.jpg';
+import image8 from './img/8.jpg';
+
 var topimg = {
   title: 'JOES BBQ SMOKEHOUSE',
   phone: '(718) - 219 - 8652'
@@ -8,19 +12,22 @@ const contactus = {
 
 const specialmenu =[
   {
-    title: 'Mature steak',
-    description: '21 Day Fresh Matured Steak, Side Of Custom Butter and Season',
-    price: 45
+    title: 'Smoked Ribs',
+        description: 'Full Rack of Ribs, Baked Potato or French Fries and side of Onion Rings',
+    price: '$35',
+    image: image7
   },
   {
-    title: 'Smokey Ribs',
-    description: 'Full Rack of Ribs, Baked potato or French Fries, side of Onion Rings',
-    price: 35
+    title: 'BBQ Chicken',
+    description: 'Glazed BBQ Chicken, Coleslaw, Corn and Creamy Mashed Potatoes',
+    price:'$30',
+    image: image5
   },
   {
     title: 'All American Burgers',
-    description: 'Single of Double Beef Burger, All The Trimmings, French Fries',
-    price: 25
+    description: 'Freshly Ground Beef, Streaky Bacon, Cheddar Cheese and French Fries',
+    price: '$25',
+    image: image8
   }
 ]
 

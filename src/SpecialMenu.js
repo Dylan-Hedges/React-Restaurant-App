@@ -8,7 +8,7 @@ export default class SpecialMenu extends Component {
       return(
         <div className="col-md-4">
           <div className="box">
-            <div className="box-img"><div className="price-circle">{item.price}</div></div>
+            <div className="box-img"><img src={item.image}/><div className="price-circle">{item.price}</div></div>
             <div className="title">{item.title}</div>
             <p className="details">{item.description}</p>
           </div>
@@ -22,13 +22,17 @@ export default class SpecialMenu extends Component {
       <section id="SpecialMenu" className="texturebg">
         <div className="container">
           <h5 className="comp-title">Special Menu</h5>
-          <h2>Delicious Flavour of Autumn</h2>
+          <h2>The finest BBQ and smoked meats</h2>
           <div className="row boxes">
             {this.loopMenu()}
           </div>
-          <a href="#" className="link">View Full Menu</a>
+            <div className="text-center ">
+              <a href="#" className="reserve-btn">View Full Menu</a>
+          </div>
         </div>
       </section>
     );
   }
 }
+
+//          <a href="#" className="link">View Full Menu</a>
