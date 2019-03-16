@@ -22,7 +22,7 @@ export default class SpecialMenu extends Component {
       <section id="SpecialMenu" className="texturebg">
         <div className="container">
           <h5 className="comp-title">Special Menu</h5>
-          <h2>The finest BBQ and smoked meats</h2>
+          <h2>Joe's BBQ and smoked meats</h2>
           <div className="row boxes">
             {this.loopMenu()}
           </div>
@@ -34,5 +34,3 @@ export default class SpecialMenu extends Component {
     );
   }
 }
-
-//          <a href="#" className="link">View Full Menu</a>
