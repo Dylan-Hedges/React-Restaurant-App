@@ -6,40 +6,38 @@ export default class ContactUs extends Component {
     return (
       <section id="ContactUs" className="texturebg">
         <div className="container">
-          <h5 className="comp-title">Contact US</h5>
-          <h2>Delicious Flavour of Autumn</h2>
+          <h5 className="comp-title">Contact Us</h5>
+          <h2>Joe's BBQ and Smokehouse</h2>
           <div className="box">
             <div className="row">
               <div className="col-md-6">
-                <div className="title">
-                  {this.props.data.contactus.location}
-                </div>
+                <h6>Phone:</h6>
+                <div className="title">342-346-6789</div>
+                <h6>Email:</h6>
+                <div className="title"><a href="mailto:info@primesteak.com">info@primesteak.com</a></div>
+                <h6>Location:</h6>
                 <h6 className="Address">
-                  535 main str<br/>
-                  Hollywood, CA 12402
+                  {this.props.data.contactus.road}
+                  <br/>
+                  {this.props.data.contactus.town}
+                  <br/>
+                  {this.props.data.contactus.code}
                 </h6>
-                <p><strong>email:</strong><a href="mailto:info@primesteak.com">info@primesteak.com</a></p>
               </div>
               <div className="col-md-6">
-                <h6>
-                  Phone:
-                </h6>
-                <div className="title">
-                  342-346-6789
-                </div>
-                <h6>
+                <h6 className="title">
                   Lunch Service
                 </h6>
                 <p>
-                  Friday, Saturday and Sunday<br/>
-                  from 12pm - 1:30pm
+                  Friday, Saturday and Sunday:<br/>
+                  From 12pm - 1:30pm
                 </p>
-                <h6>
+                <h6 className="title">
                   Dinner Service
                 </h6>
                 <p>
-                  Daily<br/>
-                  from 6pm - 11:30pm
+                  Daily:<br/>
+                  From 6pm - 11:30pm
                 </p>
               </div>
             </div>

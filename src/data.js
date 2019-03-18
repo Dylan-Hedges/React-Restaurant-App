@@ -7,7 +7,9 @@ var topimg = {
   phone: '(718) - 219 - 8652'
 }
 const contactus = {
-  location: 'Los Angeles, California'
+  road: '89 Fillet Road',
+  town: 'Steakton, Canada',
+  code: 'S34 H03'
 }
 
 const specialmenu =[
