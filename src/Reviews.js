@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.scss';
 import Header from './Header.js';
+import image9 from './img/9.jpg';
 
 export default class Reviews extends Component {
 
@@ -25,12 +26,12 @@ export default class Reviews extends Component {
       <section id="Reviews">
         <div className="container">
           <div className="row">
-            <div className="col-md-8">
+            <div className="col-md-6">
               <div className="side-img">
-                <img src="https://img-aws.ehowcdn.com/600x600p/photos.demandstudios.com/getty/article/85/121/skd181312sdc.jpg" />
+                <img src={image9} />
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-6">
               {this.currentReview()}
             </div>
           </div>
