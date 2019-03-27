@@ -19,8 +19,8 @@ export default class Footer extends Component {
             <li><a href="https://plus.google.com/discover" target="new"><i className="fab fa-google-plus"></i></a></li>
             <li><a href="http://www.youtube.com" target="new"><i className="fab fa-youtube"></i></a></li>
           </ul>
-          <div className="copyright">
-            © Copyright
+          <div className="footerlink">
+            Designed and Developed by Dylan Hedges (visit <a href="http://dylanhedges.com" target="_blank">dylanhedges.com</a>)
           </div>
         </div>
       </footer>

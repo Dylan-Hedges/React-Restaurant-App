@@ -362,7 +362,7 @@ strong{
 }
 
 #Footer{
-  padding: 100px 0;
+  padding: 80px 0;
   background: $footerBG;
   width: 100%;
   text-align: center;
@@ -374,6 +374,10 @@ strong{
       display: inline-block;
       padding: 10px 20px 10px 0;
       text-decoration: none;
+      transition: all .3s ease-in-out;
+      &:hover{
+        color: $red;
+      }
     }
   }
   .social-media{
@@ -384,13 +388,20 @@ strong{
       padding: 20px;
       a{
         color: white;
+        transition: all .3s ease-in-out;
         &:hover{
           color: $red;
+        }
+        i{
+          font-size: 2rem;
         }
       }
     }
   }
-  .copyright{
-    color: $titleColor;
+  .footerlink{
+    color: white;
+  }
+  .footerlink a{
+    color: lightblue;
   }
 }
