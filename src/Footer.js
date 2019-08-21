@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.scss';
+import {Link} from 'react-scroll';
 
 export default class Footer extends Component {
   render() {
@@ -7,11 +8,21 @@ export default class Footer extends Component {
       <footer id="Footer">
         <div className="container">
           <nav className="menu">
-            <a href="#">Our Story</a>
-            <a href="#">Reviews</a>
-            <a href="#">Special Menu</a>
-            <a href="#">Reservations</a>
-            <a href="#">Contact Us </a>
+            <Link className="footerMenu" activeClass="active" to="OurStory" spy={true} smooth={true} offset={0} duration= {1000}>
+              Our Story
+            </Link>
+            <Link className="footerMenu" activeClass="active" to="SpecialMenu" spy={true} smooth={true} offset={0} duration= {1500}>
+              Special Menu
+            </Link>            
+            <Link className="footerMenu" activeClass="active" to="Reviews" spy={true} smooth={true} offset={0} duration= {1250}>
+              Reviews
+            </Link>
+            <Link className="footerMenu" activeClass="active" to="ContactUs" spy={true} smooth={true} offset={0} duration= {1750}>
+              Reservations
+            </Link>
+            <Link className="footerMenu" activeClass="active" to="ContactUs" spy={true} smooth={true} offset={0} duration= {2000}>
+              Contact Us
+            </Link>
           </nav>
           <ul className="social-media">
             <li><a href="http://www.facebook.com" target="new"><i className="fab fa-facebook-square"></i></a></li>

@@ -74,12 +74,13 @@ strong{
   z-index: 20;
   nav{
     float: right;
-    a{
+    .headerMenu{
       display: inline-block;
       transition: all .3s ease-in-out;
       color: white;
       text-decoration: none;
       padding: 20px 10px;
+      cursor: pointer;
       &:hover{
         color: $red;
       }
@@ -369,12 +370,13 @@ strong{
   nav{
     display: inline-block;
     margin: 0 auto 50px;
-    a{
+    .footerMenu{
       color: white;
       display: inline-block;
       padding: 10px 20px 10px 0;
       text-decoration: none;
       transition: all .3s ease-in-out;
+      cursor: pointer;
       &:hover{
         color: $red;
       }
