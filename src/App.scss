@@ -70,12 +70,12 @@ strong{
 }
 
 #Header{
-  width: 100%;
-  z-index: 20;
+  // width: 100%;
+  // z-index: 20;
   nav{
-    float: right;
+    // float: right;
     .headerMenu{
-      display: inline-block;
+      // display: inline-block;
       transition: all .3s ease-in-out;
       color: white;
       text-decoration: none;
@@ -85,6 +85,9 @@ strong{
         color: $red;
       }
     }
+  }
+  .navbar-toggler{
+    background-color: $greyBG;
   }
 }
 
