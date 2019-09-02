@@ -6,9 +6,9 @@ export default class SpecialMenu extends Component {
   loopMenu () {
     return this.props.data.specialmenu.map(function(item){
       return(
-        <div className="col-md-4">
+        <div key={item.title} className="col-md-4">
           <div className="box">
-            <div className="box-img"><img src={item.image}/><div className="price-circle">{item.price}</div></div>
+            <div className="box-img"><img src={item.image} alt="menuimage"/><div className="price-circle">{item.price}</div></div>
             <div className="title">{item.title}</div>
             <p className="details">{item.description}</p>
           </div>

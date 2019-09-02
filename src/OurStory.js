@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.scss';
+import {Link} from 'react-scroll';
 
 export default class OurStory extends Component {
   render() {
@@ -18,7 +19,7 @@ export default class OurStory extends Component {
               prosciutto landjaeger spare ribs shankle. Brisket capicola corned beef leberkas.
               Beef ribs frankfurter salami cupim, pork pork loin hamburger t-bone chuck kevin ribeye pig.</p>
               <div className="quote"><em>"The best ribs in the city!"</em> - <strong>Thomas Backstone</strong></div>
-              <a href="#" className="reserve-btn">Reserve</a>
+              <Link className="reserve-btn" activeClass="active" to="ContactUs" spy={true} smooth={true} offset={0} duration= {2000}>Reserve</Link>
             </div>
             <div className="col-sm-6">
               <div className="video-image">

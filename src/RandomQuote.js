@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.scss';
-import Header from './Header.js';
 import image4 from './img/4.jpg';
 
 export default class RandomQuote extends Component {

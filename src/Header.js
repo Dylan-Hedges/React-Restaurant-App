@@ -9,7 +9,7 @@ class Header extends Component {
       <header id="Header">
         <div>
           <nav className="navbar navbar-expand-lg navbar-light bg-transparent">
-            <Link to="/"><img src={logo} className="logo"/></Link>
+            <Link to="/"><img src={logo} className="logo" alt="logo"/></Link>
             <button className="navbar-toggler" data-toggle="collapse" data-target="#navcollapseid">
               <span className="navbar-toggler-icon"></span>
             </button>

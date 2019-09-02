@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.scss';
-import Header from './Header.js';
 import image9 from './img/9.jpg';
 
 export default class Reviews extends Component {
@@ -15,7 +14,7 @@ export default class Reviews extends Component {
         <div className="author"><strong>{this.props.data.reviews[this.props.data.reviewnumber.currentreview].author}</strong> - <em>{this.props.data.reviews[this.props.data.reviewnumber.currentreview].authorInfo}</em></div>
         <div className="arrows">
           <i className={`fas fa-arrow-left ${(this.props.data.reviewnumber.currentreview > 0) ? 'ready': '' } `}></i>
-          <i className={`fas fa-arrow-right ${(this.props.data.reviewnumber.currentreview == this.props.data.reviews.length -1) ? '' : `ready` }`}></i>
+          <i className={`fas fa-arrow-right ${(this.props.data.reviewnumber.currentreview === this.props.data.reviews.length -1) ? '' : `ready` }`}></i>
         </div>
       </div>
     );
@@ -26,12 +25,12 @@ export default class Reviews extends Component {
       <section id="Reviews">
         <div className="container">
           <div className="row">
-            <div className="col-md-6">
+            <div className="col-12 col-sm-6 col-md-6">
               <div className="side-img">
-                <img src={image9} />
+                <img src={image9} alt="reviewsimage"/>
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-12 col-sm-6 col-md-6">
               {this.currentReview()}
             </div>
           </div>

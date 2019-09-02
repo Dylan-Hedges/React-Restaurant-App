@@ -107,18 +107,21 @@ strong{
     font-weight: 300;
     text-transform: uppercase;
     h5{
-      font-size: 1rem;
+      // font-size: 1rem;
+      // font-size:2vw;
+      font-size: calc(0.5em + 0.8vw);
     }
     h1{
       font-family: $displayFont;
-      font-size: 6rem;
+      // font-size: 6rem;
+      // font-size:5vw;
+      font-size: calc(1.2em + 4.3vw);
     }
   }
   .contact-info{
     color: white;
     text-align: right;
     bottom: 0;
-    font-size: 0.9rem;
     line-height: 1.5rem;
     color: $paraghColor;
     strong{
@@ -128,18 +131,21 @@ strong{
     .booking{
       margin-bottom: 10px;
       color: $paraghColor;
+      font-size: calc(0.8em + 0.2vw);
     }
-    h2{
-      font-size: 2rem;
+    .phonenumber{
+      font-size: calc(2em + 1vw);
       margin-bottom: 20px;
       color: white;
+    }
+    .hours{
+      font-size: calc(0.8em + 0.2vw);
     }
   }
 }
 
 #OurStory{
   padding: 100px 0;
-
   .quote{
     color: $paraghColor;
     margin: 0.3rem 0 2.5rem;
@@ -160,9 +166,11 @@ strong{
     text-transform: uppercase;
     transition: all .3s ease-in-out;
     letter-spacing: 1px;
+    margin-bottom: 10px;
     &:hover{
         background: $red;
         color: white;
+        cursor: pointer;
     }
   }
   .video-image{
@@ -291,7 +299,7 @@ strong{
   text-align: right;
   .side-img{
     // position: relative;
-    height: 200px;
+    // height: 200px;
     // width: 400px;
     text-align: left;
     img{
